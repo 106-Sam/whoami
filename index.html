@@ -124,7 +124,7 @@
               <ul>
                 <li><i class="bi bi-chevron-right"></i> <strong>CTF Writeup site:</strong> <span><a href="https://samaritan106.wordpress.com/">click here</a></span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>eJPTv2 Notes:</strong> <span><a href="https://106-sam.gitbook.io/ejptv2-notes">click here</a></span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>22</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>23</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 9030XXXXXX</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Hyderabad, Telangana</span></li>
                 <script src="https://tryhackme.com/badge/147113"></script>
@@ -557,8 +557,66 @@
       <div class='robot'> <!-- class="php-email-form"--><a href="https://drive.google.com/file/d/1Ufc0hnQH_6TmEXxW8bUdu-7p0CWyT72f/view?usp=sharing" download="LOR for company.pdf" target="_blank"><button type="submit">Letter Of Recommendation-Company</button></a></div>
       <!-- Download LOR - University -->
       <div class='robot'><a href="https://drive.google.com/file/d/1fbEq2jn4lKhUibCTY3tAHT3-2y-RAyyq/view?usp=sharing" download="LOR-UNI.pdf" target="_blank"><button type="submit">Letter Of Recommendation-University</button></a></div>
-      <!-- Download Gpay -->
-      <div class='robot'><a href="https://drive.google.com/file/d/1JjePjLbONJZApdzu2ObTucNVeWTkEzRo/view?usp=sharing" download="Gpay.pdf" target="_blank"><button type="submit">GPay</button></a></div>
+      <!-- samCTF -->
+      <style>
+        #popupDialog {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        #overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+
+        h1 {
+            color: green;
+        }
+    </style>
+      <button onclick="popupFn()">
+        samCTF'24
+      </button>
+  <div id="overlay"></div>
+    <div id="popupDialog">
+        <p>Welcome to GeeksforGeeks</p>
+        <button onclick="closeFn()">
+            close
+        </button>
+    </div>
+      <script>
+        function popupFn() {
+            document.getElementById(
+                "overlay"
+            ).style.display = "block";
+            document.getElementById(
+                "popupDialog"
+            ).style.display = "block";
+        }
+        function closeFn() {
+            document.getElementById(
+                "overlay"
+            ).style.display = "none";
+            document.getElementById(
+                "popupDialog"
+            ).style.display = "none";
+        }
+    </script>
+
+      
       
       <div class="row">
         <div class="col-lg-6">
