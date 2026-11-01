@@ -1,4 +1,3 @@
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -1181,10 +1180,10 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
 /*--------------------------------------------------------------
 # Sami Changes
 --------------------------------------------------------------*/
-
 .tech-stack-container .stack-title {
   color: #18d26e; /* Keep your cyber green */
   font-family: 'Fira Code', 'Courier New', monospace;

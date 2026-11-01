@@ -28,30 +28,8 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- Typing-text animation & Disable developer mode--> 
-  <script>
-    document.onkeydown = function (e) {
-      if (e.keyCode == 123) {
-       return false;
-      }
-      if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-        return false;
-      }
-      if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
-        return false;
-      }
-      if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-        return false;
-      }
-      if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-        return false;
-      }
-    };
-  </script>
-   <!-- Load library from the CDN -->
-   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-   
-  
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 
 <body>
@@ -61,21 +39,7 @@
     <div class="container">
 
       <h1><a href="index.html">Mohd Abdul Sami</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
       <h2>I'm passionate about <span class="typing-text">Information Security</span></h2>
-
-     <!-- <script>
-        //  typed js effect starts 
-      var typed = new Typed(".typing-text", {
-          strings: ["Cybersecurity","Red Teaming","OSINT Investigation","CTF Challenge Creation","Playing CTFs","Web Development","Coding & Scripting","Basketball"],
-          loop: true,
-          typeSpeed: 50,
-          backSpeed: 25,
-          backDelay: 500,
-      });
-//  typed js effect ends 
-      </script> -->
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -116,9 +80,9 @@
           <img src="assets/img/pic1.png" class="img-fluid" alt="">
         </div>
         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <h3>DevOps Engineer &amp; Security Researcher</h3>
+          <h3>DevSecOps Engineer &amp; Security Researcher</h3>
           <p class="fst-italic">
-            I am Mohd Abdul Sami, also known as 106_Sam, a certified eJPTv2 penetration tester bridging the gap between automated CI/CD pipelines and offensive security engineering. I focus on securing multi-cloud infrastructure, automating vulnerability assessments, and shifting security left.I am Mohd Abdul Sami, also known as 106_Sam, a certified eJPTv2 penetration tester bridging the gap between automated CI/CD pipelines and offensive security engineering. I focus on securing multi-cloud infrastructure, automating vulnerability assessments, and shifting security left.I am Mohd Abdul Sami, also known as 106_Sam, a certified eJPTv2 penetration tester bridging the gap between automated CI/CD pipelines and offensive security engineering. I focus on securing multi-cloud infrastructure, automating vulnerability assessments, and shifting security left.
+            I am Mohd Abdul Sami, also known as 106_Sam, a certified eJPTv2 penetration tester bridging the gap between automated CI/CD pipelines and offensive security engineering. I focus on securing multi-cloud infrastructure, automating vulnerability assessments, and shifting security left.
           </p>
           <div class="row">
             <div class="col-lg-6">
@@ -141,56 +105,11 @@
               </ul>
             </div>
           </div>
-          <p>
-           <!-- <img src='https://www.hackthebox.com/badge/image/181300'>
-            <script src="https://tryhackme.com/badge/147113"></script>
-            -->
-          </p>
         </div>
       </div>
 
     </div><!-- End About Me -->
 
-    <!-- ======= Counts ======= -->
-  <!--  <div class="counts container">
-
-      <div class="row">
-
-        <div class="col-lg-3 col-md-6">
-          <div class="count-box">
-            <i class="bi bi-emoji-smile"></i>
-            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Happy Clients</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-          <div class="count-box">
-            <i class="bi bi-journal-richtext"></i>
-            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Projects</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="bi bi-headset"></i>
-            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hours Of Support</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="bi bi-award"></i>
-            <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Awards</p>
-          </div>
-        </div>
-
-      </div>
-
-    </div><!-- End Counts -->
     <!-- ======= Skills  ======= -->
     <div class="skills container">
 
@@ -199,192 +118,78 @@
       </div>
 
       <div class="row skills-content">
-  <div class="col-lg-12">
-    <div class="tech-stack-container">
-      
-      <h4 class="stack-title">DevSecOps & Multi-Cloud</h4>
-      <div class="tech-badges">
-        <span class="tech-badge"><i class="bx bxl-aws"></i> AWS / Azure / GCP</span>
-        <span class="tech-badge"><i class="bx bxl-docker"></i> Docker & Kubernetes</span>
-        <span class="tech-badge"><i class="bx bx-cloud"></i> Terraform (IaC)</span>
-        <span class="tech-badge"><i class="bx bx-git-branch"></i> GitHub Actions / Jenkins</span>
-        <span class="tech-badge"><i class="bx bx-shield-alt-2"></i> Trivy / Grype / SonarQube</span>
-      </div>
+        <div class="col-lg-12">
+          <div class="tech-stack-container">
+            
+            <h4 class="stack-title">DevSecOps & Multi-Cloud</h4>
+            <div class="tech-badges">
+              <span class="tech-badge"><i class="bx bxl-aws"></i> AWS / Azure / GCP</span>
+              <span class="tech-badge"><i class="bx bxl-docker"></i> Docker & Kubernetes</span>
+              <span class="tech-badge"><i class="bx bx-cloud"></i> Terraform (IaC)</span>
+              <span class="tech-badge"><i class="bx bx-git-branch"></i> GitHub Actions / Jenkins</span>
+              <span class="tech-badge"><i class="bx bx-shield-alt-2"></i> Trivy / Grype / SonarQube</span>
+            </div>
 
-      <h4 class="stack-title mt-4">Offensive Security</h4>
-      <div class="tech-badges">
-        <span class="tech-badge"><i class="bx bx-radar"></i> Active Directory Attacks</span>
-        <span class="tech-badge"><i class="bx bx-target-lock"></i> Metasploit / BurpSuite</span>
-        <span class="tech-badge"><i class="bx bx-network-chart"></i> MITRE ATT&CK</span>
-        <span class="tech-badge"><i class="bx bx-bug"></i> Linux Exploitation</span>
-      </div>
+            <h4 class="stack-title mt-4">Offensive Security</h4>
+            <div class="tech-badges">
+              <span class="tech-badge"><i class="bx bx-radar"></i> Active Directory Attacks</span>
+              <span class="tech-badge"><i class="bx bx-target-lock"></i> Metasploit / BurpSuite</span>
+              <span class="tech-badge"><i class="bx bx-network-chart"></i> MITRE ATT&CK</span>
+              <span class="tech-badge"><i class="bx bx-bug"></i> Linux Exploitation</span>
+            </div>
 
-      <h4 class="stack-title mt-4">Scripting & OS</h4>
-      <div class="tech-badges">
-        <span class="tech-badge"><i class="bx bxl-python"></i> Python / Bash / PowerShell</span>
-        <span class="tech-badge"><i class="bx bxl-tux"></i> Kali / Linux / Security Onion</span>
-        <span class="tech-badge"><i class="bx bxl-windows"></i> Windows Server</span>
-      </div>
+            <h4 class="stack-title mt-4">Scripting & OS</h4>
+            <div class="tech-badges">
+              <span class="tech-badge"><i class="bx bxl-python"></i> Python / Bash / PowerShell</span>
+              <span class="tech-badge"><i class="bx bxl-tux"></i> Kali / Linux / Security Onion</span>
+              <span class="tech-badge"><i class="bx bxl-windows"></i> Windows Server</span>
+            </div>
 
-    </div>
-  </div>
-</div>
+          </div>
+        </div>
       </div>
-
     </div><!-- End Skills -->
 
-    <!-- ======= Interests ======= -->
+    <!-- ======= Tools & Software ======= -->
     <div class="interests container">
-
       <div class="section-title">
         <h2>Tools & Software</h2>
       </div>
-
       <div class="row">
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i></i>
-            <h3>Nmap </h3>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i></i>
-            <h3>Rustscan </h3>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i></i>
-            <h3>Masscan </h3>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i></i>
-            <h3>Gobuster </h3>
-          </div>
-        </div>
-        <!-- First Row ends-->
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i></i>
-            <h3>Dirb </h3>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i></i>
-            <h3>Nessus </h3>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i></i>
-            <h3>BurpSuite </h3>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i></i>
-            <h3>VirtualBox </h3>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i></i>
-            <h3>VMware </h3>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i></i>
-            <h3>Metasploit Framework </h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i></i>
-            <h3>Security Onion</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i></i>
-            <h3>Docker</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i></i>
-            <h3>Prelude Operator</h3>
-          </div>
-        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0"><div class="icon-box"><i class="bx bx-radar"></i><h3>Nmap</h3></div></div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0"><div class="icon-box"><i class="bx bx-scan"></i><h3>Rustscan</h3></div></div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0"><div class="icon-box"><i class="bx bx-scan"></i><h3>Masscan</h3></div></div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0"><div class="icon-box"><i class="bx bx-search-alt"></i><h3>Gobuster</h3></div></div>
+        <div class="col-lg-3 col-md-4 mt-4"><div class="icon-box"><i class="bx bx-search-alt"></i><h3>Dirb</h3></div></div>
+        <div class="col-lg-3 col-md-4 mt-4"><div class="icon-box"><i class="bx bx-shield-alt-2"></i><h3>Nessus</h3></div></div>
+        <div class="col-lg-3 col-md-4 mt-4"><div class="icon-box"><i class="bx bx-shield-quarter"></i><h3>BurpSuite</h3></div></div>
+        <div class="col-lg-3 col-md-4 mt-4"><div class="icon-box"><i class="bx bx-server"></i><h3>VirtualBox</h3></div></div>
+        <div class="col-lg-3 col-md-4 mt-4"><div class="icon-box"><i class="bx bx-server"></i><h3>VMware</h3></div></div>
+        <div class="col-lg-3 col-md-4 mt-4"><div class="icon-box"><i class="bx bx-target-lock"></i><h3>Metasploit Framework</h3></div></div>
+        <div class="col-lg-3 col-md-4 mt-4"><div class="icon-box"><i class="bx bx-network-chart"></i><h3>Security Onion</h3></div></div>
+        <div class="col-lg-3 col-md-4 mt-4"><div class="icon-box"><i class="bx bxl-docker"></i><h3>Docker</h3></div></div>
+        <div class="col-lg-3 col-md-4 mt-4"><div class="icon-box"><i class="bx bx-terminal"></i><h3>Prelude Operator</h3></div></div>
       </div>
-
-    </div><!-- End Interests -->
+    </div><!-- End Tools -->
 
     <!-- ======= Operating System ======= -->
-    <div class="interests container">
-
+    <div class="interests container mt-4">
       <div class="section-title">
         <h2>Operating System</h2>
       </div>
-
       <div class="row">
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i></i>
-            <h3>Kali Linux </h3>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i></i>
-            <h3>Parrot Security OS </h3>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i></i>
-            <h3>Arch Linux </h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i></i>
-            <h3>Ubuntu </h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i></i>
-            <h3>Windows xp, 7, 8, 8.1, 10, 11 </h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i></i>
-            <h3>Windows Server 2012, 2016 </h3>
-          </div>
-        </div>
-        
-
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0"><div class="icon-box"><i class="bx bxl-tux"></i><h3>Kali Linux</h3></div></div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0"><div class="icon-box"><i class="bx bxl-tux"></i><h3>Parrot Security OS</h3></div></div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0"><div class="icon-box"><i class="bx bx-terminal"></i><h3>Arch Linux</h3></div></div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0"><div class="icon-box"><i class="bx bx-terminal"></i><h3>Ubuntu</h3></div></div>
+        <div class="col-lg-3 col-md-4 mt-4"><div class="icon-box"><i class="bx bxl-windows"></i><h3>Windows 7, 8, 10, 11</h3></div></div>
+        <div class="col-lg-3 col-md-4 mt-4"><div class="icon-box"><i class="bx bxl-windows"></i><h3>Windows Server</h3></div></div>
       </div>
+    </div><!-- End OS -->
 
 
     <!-- ======= Testimonials ======= -->
-    <div class="testimonials container">
+    <div class="testimonials container mt-5">
 
       <div class="section-title">
         <h2>Testimonials</h2>
@@ -462,10 +267,6 @@
         <div class="swiper-pagination"></div>
       </div>
 
-      <div class="owl-carousel testimonials-carousel">
-
-      </div>
-
     </div><!-- End Testimonials  -->
 
   </section><!-- End About Section -->
@@ -482,11 +283,12 @@
          .robot{
             display: inline-block;
             margin-right: 10px; /* Download button css */
+         }
       </style>
       <!-- Download Resume -->
        <div class='robot'><a href="https://docs.google.com/document/d/1n2Dxp9JrGDc1HoWnAJvD_cAA_Z2GPcVQ/edit?usp=sharing&ouid=112636778804278739611&rtpof=true&sd=true" download="AbdulSami-Resume.pdf" target="_blank"><button type="submit">Download Resume</button></a></div>
       <!-- Download LOR - company -->
-      <div class='robot'> <!-- class="php-email-form"--><a href="https://drive.google.com/file/d/1Ufc0hnQH_6TmEXxW8bUdu-7p0CWyT72f/view?usp=sharing" download="LOR for company.pdf" target="_blank"><button type="submit">Letter Of Recommendation-Company</button></a></div>
+      <div class='robot'><a href="https://drive.google.com/file/d/1Ufc0hnQH_6TmEXxW8bUdu-7p0CWyT72f/view?usp=sharing" download="LOR for company.pdf" target="_blank"><button type="submit">Letter Of Recommendation-Company</button></a></div>
       <!-- Download LOR - University -->
       <div class='robot'><a href="https://drive.google.com/file/d/1fbEq2jn4lKhUibCTY3tAHT3-2y-RAyyq/view?usp=sharing" download="LOR-UNI.pdf" target="_blank"><button type="submit">Letter Of Recommendation-University</button></a></div>
       <!-- samCTF -->
@@ -518,136 +320,104 @@
         h1 {
             color: green;
         }
-    </style>
-      <button onclick="popupFn()">
-        samCTF'24
-      </button>
-  <div id="overlay"></div>
-    <div id="popupDialog">
-        <p style="color: black;">Finally, you're getting closer ;p</p>
-        <p>df4459e9</p>
-        <p style="color: black;">3/4 flag</p>
-        <p style="color: black;">Hint for 4th part(last) of the flag:</p>
-        <p style="color: black;">You can find it, in one of the alternatives of Twitter(X), which has an upvotes & downvotes feature. Please be sure to look for my account there.</p>
-        <button onclick="closeFn()">
-            close
+      </style>
+      <div class="robot">
+        <button onclick="popupFn()">
+          samCTF'24
         </button>
-    </div>
+      </div>
+      <div id="overlay"></div>
+      <div id="popupDialog">
+          <p style="color: black;">Finally, you're getting closer ;p</p>
+          <p>df4459e9</p>
+          <p style="color: black;">3/4 flag</p>
+          <p style="color: black;">Hint for 4th part(last) of the flag:</p>
+          <p style="color: black;">You can find it, in one of the alternatives of Twitter(X), which has an upvotes & downvotes feature. Please be sure to look for my account there.</p>
+          <button onclick="closeFn()">
+              close
+          </button>
+      </div>
       <script>
-        function popupFn() {
-            document.getElementById(
-                "overlay"
-            ).style.display = "block";
-            document.getElementById(
-                "popupDialog"
-            ).style.display = "block";
-        }
-        function closeFn() {
-            document.getElementById(
-                "overlay"
-            ).style.display = "none";
-            document.getElementById(
-                "popupDialog"
-            ).style.display = "none";
-        }
-    </script>
+          function popupFn() {
+              document.getElementById(
+                  "overlay"
+              ).style.display = "block";
+              document.getElementById(
+                  "popupDialog"
+              ).style.display = "block";
+          }
+          function closeFn() {
+              document.getElementById(
+                  "overlay"
+              ).style.display = "none";
+              document.getElementById(
+                  "popupDialog"
+              ).style.display = "none";
+          }
+      </script>
 
-      
-      
       <div class="row">
         <div class="col-lg-6">
           <h3 class="resume-title">Summary</h3>
           <div class="resume-item pb-0">
-  <h4>Mohd Abdul Sami</h4>
-  <p><em>Versatile DevSecOps Engineer and Security Researcher dedicated to bridging the gap between automated CI/CD pipelines and offensive security. Expertise in securing multi-cloud environments, implementing Infrastructure as Code (IaC), and executing shift-left security strategies to proactively mitigate threats.</em></p>
-  <ul>
-    <li>Hyderabad, Telangana, India</li>
-    <li>+91 9030XXXXXX</li>
-    <li>106sam.abdul@googlemail.com</li>
-  </ul>
-</div>
+            <h4>Mohd Abdul Sami</h4>
+            <p><em>Versatile DevSecOps Engineer and Security Researcher dedicated to bridging the gap between automated CI/CD pipelines and offensive security. Expertise in securing multi-cloud environments, implementing Infrastructure as Code (IaC), and executing shift-left security strategies to proactively mitigate threats.</em></p>
+            <ul>
+              <li>Hyderabad, Telangana, India</li>
+              <li>+91 9030XXXXXX</li>
+              <li>106sam.abdul@googlemail.com</li>
+            </ul>
+          </div>
 
           <h3 class="resume-title">Work Experience</h3>
           <div class="resume-item">
-            <h4>Security Analyst</h4>
-            <h5>July 2024 - March 2022</h5>
-            <p><em>Cognizant Technolgy Solution, Hyderabad, Telangana</em></p>
-            <p>
+            <h4>DevSecOps & Threat Research Engineer</h4>
+            <h5>June 2025 - June 2026</h5>
+            <p><em>CleanStart Security, Bengaluru, Karnataka</em></p>
+          </div>
+          <div class="resume-item">
+            <h4>DevOps Engineer</h4>
+            <h5>July 2024 - March 2025</h5>
+            <p><em>Cognizant Technologies India, Hyderabad, Telangana</em></p>
           </div>
 
           <h3 class="resume-title">Internship Experience</h3>
           <div class="resume-item">
-            <h4>Red Team Engineer</h4>
-            <h5>June 2022 - November 2022</h5>
-            <p><em>Virtually Testing Foundation, Los Angeles, CA </em></p>
-            <p>
-           <!-- <ul>
-              <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-              <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-              <li>Supervise the assessment of all graphic materials to ensure the quality and accuracy of the design</li>
-              <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-            </ul> -->
-            </p>
-          </div>
-          <div class="resume-item">
-            <h4>Cyber Security Engineer</h4>
-            <h5>April 2022 - July 2022</h5>
-            <p><em>Virtually Testing Foundation, Los Angeles, CA </em></p>
-            <p>
-           <!-- <ul>
-              <li>Developed numerous marketing programs (logos, brochures, infographics, presentations, and advertisements).</li>
-              <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-              <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-              <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-            </ul> -->
-            </p>
+            <h4>Cloud Engineer & Red Team Intern</h4>
+            <h5>April 2022 - March 2023</h5>
+            <p><em>Virtually Testing Foundation, Los Angeles, CA</em></p>
           </div>
           <div class="resume-item">
             <h4>Cyber Security Researcher</h4>
             <h5>June 2021 - July 2021</h5>
-            <p><em>Gurugram Police Cyber Security, Haryana, India </em></p>
-            <p>
-            <!-- <ul>
-              <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-              <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-              <li>Supervise the assessment of all graphic materials to ensure the quality and accuracy of the design</li>
-              <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-            </ul> -->
-            </p>
+            <p><em>Gurugram Police Cyber Security, Haryana, India</em></p>
           </div>
           <div class="resume-item">
             <h4>Web Developer</h4>
             <h5>April 2021 - July 2021</h5>
-            <p><em>Cyber World Organization, New Delhi, India </em></p>
-            <p>
-           <!-- <ul>
-              <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-              <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-              <li>Supervise the assessment of all graphic materials in order to ensure the quality and accuracy of the design</li>
-              <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-            </ul> -->
-            </p>
+            <p><em>Cyber World Organization, New Delhi, India</em></p>
           </div>
         </div>
-      </div>
-      <h3 class="resume-title">Education</h3>
+        
+        <div class="col-lg-6">
+          <h3 class="resume-title">Education</h3>
           <div class="resume-item">
             <h4>Bachelor of Technology - Computer Science Engineering in Cybersecurity</h4>
             <h5>2020 - 2024</h5>
             <p><em>MLR Institute of Technology, Hyderabad, India</em></p>
           </div>
-      <div class="resume-item">
+          <div class="resume-item">
             <h4>Senior High School - Mathematics, Physics & Chemistry</h4>
             <h5>2018 - 2020</h5>
             <p><em>Loyola Academy Junior College, Hyderabad, India</em></p>
-
-    </div>
-       <div class="resume-item">
+          </div>
+          <div class="resume-item">
             <h4>High School - Central Board of Secondary Education</h4>
             <h5>2009 - 2018</h5>
             <p><em>H.A.L Secondary School, Hyderabad, India</em></p>
-         </div>
-
+          </div>
+        </div>
+      </div>
     </div>
   </section><!-- End Resume Section -->
 
@@ -665,50 +435,9 @@
           <div class="icon-box">
             <div class="icon"><i class="bi bi-laptop"></i></div>
             <h4><a href="">eJPTv2</a></h4>
-            <p><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/90931664"></p>
+            <p><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/90931664" style="max-width: 100%; height: auto;"></p>
           </div>
         </div>
-<!-- 
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
-            <h4><a href="">Sed ut perspiciatis</a></h4>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-tachometer"></i></div>
-            <h4><a href="">Magni Dolores</a></h4>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-world"></i></div>
-            <h4><a href="">Nemo Enim</a></h4>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-slideshow"></i></div>
-            <h4><a href="">Dele cardo</a></h4>
-            <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-arch"></i></div>
-            <h4><a href="">Divera don</a></h4>
-            <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
-          </div>
-        </div> -->
-
       </div>
 
     </div>
@@ -744,7 +473,6 @@
               <p>Attacks</p>
               <div class="portfolio-links">
                 <a href="https://www.youtube.com/embed/yRfPgLbVPgI?si=gNWiReSOtqNCnrTe" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
               </div>
             </div>
           </div>
@@ -758,7 +486,6 @@
               <p>Web</p>
               <div class="portfolio-links">
                 <a href="https://acube-term.vercel.app/" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-               <!-- <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
               </div>
             </div>
           </div>
@@ -766,13 +493,12 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
-            <img src=https://i.imgur.com/hXqENAJ.gif" class="img-fluid" alt="">
+            <img src="https://i.imgur.com/hXqENAJ.gif" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Google Sheet Command&Control</h4>
               <p>Attack</p>
               <div class="portfolio-links">
                 <a href="https://www.youtube.com/embed/F5I7DAqfKVY?si=bODWoH91uiGoWqy_" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
               </div>
             </div>
           </div>
@@ -786,11 +512,10 @@
               <p>My Challenges</p>
               <div class="portfolio-links">
                 <a href="https://www.youtube.com/embed/VtSG-zfBQyc?si=5ngkdQpzwSlRt79M" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
               </div>
             </div>
           </div>
-        </div> -->
+        </div> 
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
@@ -800,7 +525,6 @@
               <p>Web</p>
               <div class="portfolio-links">
                 <a href="https://samaritan106.wordpress.com/" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
               </div>
             </div>
           </div>
@@ -814,7 +538,6 @@
               <p>Attack</p>
               <div class="portfolio-links">
                 <a href="https://www.youtube.com/watch?v=tXawbPCrR_w" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
               </div>
             </div>
           </div>
@@ -828,7 +551,6 @@
               <p>My Challenges</p>
               <div class="portfolio-links">
                 <a href="https://www.youtube.com/embed/bo_t5L4gI7g?si=p-NJ-p5uluHmxy8f" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
               </div>
             </div>
           </div>
@@ -842,7 +564,6 @@
               <p>My Challenges</p>
               <div class="portfolio-links">
                 <a href="https://www.youtube.com/embed/6umI1OBkWpU?si=354hzxiSOxdzzGPq" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
               </div>
             </div>
           </div>
@@ -856,7 +577,6 @@
               <p>My Challenges</p>
               <div class="portfolio-links">
                 <a href="https://www.youtube.com/embed/ld-azCjVj2s?si=dclM_-rXSHUxyW5h" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
               </div>
             </div>
           </div>
@@ -870,11 +590,11 @@
               <p>Web</p>
               <div class="portfolio-links">
                 <a href="https://106-sam.gitbook.io/ejptv2-notes" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
               </div>
             </div>
           </div>
         </div>
+
         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
           <div class="portfolio-wrap">
             <img src="https://i.ytimg.com/vi_webp/3jnqj5KqmKw/maxresdefault.webp" class="img-fluid" alt="">
@@ -883,7 +603,6 @@
               <p>My Challenges</p>
               <div class="portfolio-links">
                 <a href="https://www.youtube.com/embed/3jnqj5KqmKw?si=Sx7Tm-EFQZSeFoub" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
               </div>
             </div>
           </div>
@@ -943,7 +662,7 @@
         </div>
       </div>
 
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+      <form action="YOUR_FORMSPREE_ENDPOINT_URL" method="POST" class="php-email-form mt-4">
         <div class="row">
           <div class="col-md-6 form-group">
             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -970,10 +689,6 @@
   </section><!-- End Contact Section -->
 
   <div class="credits">
-    <!-- All the links in the footer should remain intact. -->
-    <!-- You can delete the links only if you purchased the pro version. -->
-    <!-- Licensing information: https://bootstrapmade.com/license/ -->
-    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
     Designed by <a href="https://www.youtube.com/@106_Sam">106_Sam</a>
   </div>
 
@@ -984,11 +699,10 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
- <script src="assets/js/typing.js"></script> 
+  <script src="assets/js/typing.js"></script> 
 
 </body>
 
